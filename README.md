@@ -19,7 +19,7 @@
 
 ### 🐍 Contribution Snake
 
-![github contribution snake animation](https://github.com/JagHack/JagHack/blob/output/github-contribution-grid-snake.svg)
+![github contribution snake animation](https://raw.githubusercontent.com/JagHack/JagHack/output/github-contribution-grid-snake-dark.svg)
 
 ---
 
