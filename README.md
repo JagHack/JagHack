@@ -32,7 +32,7 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=JagHack&show_icons=true&theme=purple-midnight" alt="JagHack's GitHub stats" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=JagHack&show_icons=true&theme=purple-midnight" height="165"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JagHack&layout=compact&theme=purple-midnight" alt="Top Languages" height="165"/>
 </p>
 
