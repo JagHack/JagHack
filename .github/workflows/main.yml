@@ -2,7 +2,7 @@ name: generate animation
 
 on:
   schedule:
-    - cron: "0 */24 * * *" 
+    - cron: "0 */24 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -19,24 +19,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'  
-      - name: Install canvas build dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y \
-            build-essential \
-            libcairo2-dev \
-            libpango1.0-dev \
-            libjpeg-dev \
-            libgif-dev \
-            librsvg2-dev
-
-      - name: Install node-canvas
-        run: npm install canvas
-
       - name: Install dependencies for node-canvas
         run: |
           sudo apt-get update
@@ -48,7 +30,7 @@ jobs:
             libgif-dev \
             librsvg2-dev
 
-      - name: generate github-contribution-grid-snake.svg
+      - name: generate github-contribution-grid-snake.svg and gif
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -59,7 +41,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: push github-contribution-grid-snake.svg to the output branch
+      - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
