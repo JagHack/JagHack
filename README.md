@@ -34,6 +34,7 @@
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=JagHack&show_icons=true&theme=midnight-purple" alt=" " height="165"/>
+  <img src="https://streak-stats.demolab.com/?user=JagHack&theme=radical" alt=" " height="165"/>
 </p>
 
 ---
