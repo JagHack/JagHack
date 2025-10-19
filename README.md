@@ -10,8 +10,8 @@
 
 ### 🕹️ About Me
 
-- Mostly scripting or just working on ai stuff.
-- I love working with ai or training ai.
+- Mostly scripting or just working on AI stuff.
+- I love working with ai or training AI.
 - JavaScript is my weapon of choice
 - Creator of <a href="https://github.com/JagHack/jagprox">JagProx</a> – a Hypixel proxy for Minecraft
 - Socials? YouTube and Discord on the left
